@@ -25,3 +25,22 @@
 .menu-item:hover a {
   color: black;
 }
+
+.header-image {
+  background: url("./assets/images/header.jpg") no-repeat center;
+  height: 100vh;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-title {
+    background: rgb(26, 26, 26);
+    color: white;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
