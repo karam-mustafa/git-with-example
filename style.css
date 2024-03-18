@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu-item {
+  padding: 20px;
+}
+.menu-item a {
+  color: white;
+  text-decoration: none;
+}
+.menu-item:hover {
+  background-color: white;
+}
+.menu-item:hover a {
+  color: black;
+}
