@@ -30,17 +30,49 @@
   background: url("./assets/images/header.jpg") no-repeat center;
   height: 100vh;
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .header-title {
-    background: rgb(26, 26, 26);
-    color: white;
-    height: 200px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
+  background: rgb(26, 26, 26);
+  color: white;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
 
+.cards {
+  margin: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: -5px 16px 40px -11px gray;
+  height: max-content;
+  padding: 10px 0;
+}
+.card img {
+  border-radius: 20px;
+  width: 100%;
+  margin: 10px 0;
+}
+.card h2 {
+  color: gray;
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+.card button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  margin: 10px 0;
+  border-radius: 20px;
 }
